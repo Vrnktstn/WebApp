@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+
+<head>
+    <title>My Page</title>
+    <link rel="shorcut icon" href="/css/img/page1.png">
+    <link rel="stylesheet" type="text/css" href="/css/styleview.css" media="screen"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header_logo"><p>{{.Title}}</p></div>
+                <input type="checkbox" id="check-menu">
+                <label for="check-menu" class="label-menu"></label>
+                <div class="burger-line first"></div>
+                <div class="burger-line second"></div>
+                <div class="burger-line third"></div>
+                <div class="burger-line fourth"></div>
+                <nav class="main-menu">
+                    <div class="topnav">
+                        <a href="#">LINK1</a>
+                        <a href="#">LINK2</a>
+                        <a href="#">LINK3</a>
+                        <a href="#">LINK4</a>
+                        <a href="#">LINK5</a>
+                        <a href="#">LINK6</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+    <main class="main">
+        <div class="text-content headtext">
+            <h1 class="headheader">{{printf "%s" .Body}}</h1>
+            <a href="/edit/{{.Title}}" class="savebutton">Назад</a>
+        </div>
+        <div class="text-content text1">
+            <div class="img-content">
+              <picture>
+                <source class="picture-content pic1" srcset="/css/img/dove.jpg" media="(min-width: 992px)">
+                  <source class="picture-content pic2" srcset="/css/img/dove2.jpg" media="(min-width: 380px)">
+                  <img class="picture-content pic3" src="/css/img/dove3.jpg" alt="Flowers" style="width:auto;">
+              </picture>
+            </div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="text-content text2">
+            <div class="img-content">
+              <picture>
+              <source class="picture-content1 pic1" srcset="/css/img/pinkdove.jpg" media="(min-width: 992px)">
+                <source class="picture-content1 pic2" srcset="/css/img/pinkdove2.jpg" media="(min-width: 380px)">
+                <img class="picture-content1 pic3" src="/css/img/pinkdove3.jpg" alt="Flowers" style="width:auto;">
+            </picture>
+          </div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora id quaerat quisquam dolore earum eaque reiciendis eos, repellat mollitia animi?
+        </div>
+        <div class="text-content text3">
+            <div class="img-content">
+              <picture>
+              <source class="picture-content1 pic1" srcset="/css/img/blooddove.jpg" media="(min-width: 992px)">
+                <source class="picture-content1 pic2" srcset="/css/img/blooddove.jpg" media="(min-width: 380px)">
+                <img class="picture-content1 pic3" src="/css/img/blooddove.jpg" alt="Flowers" style="width:auto;">
+              </picture>
+            </div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad beatae doloribus, magni nobis sequi natus ea vel quis delectus dolorum.
+        </div>
+        <div class="text-content text4">
+            <div class="img-content">
+              <picture>
+              <source class="picture-content1 pic1" srcset="/css/img/whitedove.jpg" media="(min-width: 992px)">
+                <source class="picture-content1 pic2" srcset="/css/img/whitedove.jpg" media="(min-width: 380px)">
+                <img class="picture-content1 pic3" src="/css/img/whitedove.jpg" alt="Flowers" style="width:auto;">
+              </picture>
+            </div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="text-content text5">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </main>
+
+
+    <footer class="footer">
+    </footer>
+</div>
+</body>
+
+
+</html>
